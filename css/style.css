@@ -142,6 +142,20 @@
 
 
 /* end about area  */
+
+
+/* raibow line area */
+.site-main .rainbow-area .rainbow
+{      
+    height: 0.5em; 
+    border-radius: 4px;
+    background-image:linear-gradient(to right, #eaa65b, #f98d5a, #ff7267, #ff557e, #f93e9e, #d65ed0, #9b7cf2, #3a92ff, #00b3ff, #00cef5, #00e2d8, #89f2be);
+    margin: 2rem 0;
+}
+
+
+
+/* rainbow end area */
 /* brand area */
 .site-main .brand-area
 {
@@ -240,3 +254,64 @@
 
 
 /* end brand area  */
+
+
+/*  start services area */
+.site-main .site-area
+{
+    padding: 7rem 2rem ;
+
+}
+.site-main .service-area .service-title
+{
+    padding : 0 14rem;
+}
+.site-main .service-area .service-title h1
+{ border:2px solid black;
+    font-size:35px; background-color: red;
+}
+
+.site-main .service-area .services
+{
+
+ background-color: rgba(248,252,253,0.973);
+ padding :2rem 0;
+ width: 16rem;
+ margin :5rem  .5rem;
+ transition: box-shadow .7s ease;
+}
+.site-main .service-area .services:hover
+{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+/* end services area */
+/*start  project area */
+.site-main .project-area
+{
+     padding:4rem 0 ; 
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font :normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.site-main .project-area .button-group button + button
+{
+    padding-left: 3rem;
+}
+.site-main .project-area .grid .our-project > .title h4
+{
+
+    font:normal 700 25px/12px 'Times New Roman', Times, serif ;
+    
+}
+
+
+/*end project area */
+

@@ -79,3 +79,14 @@ p.para
 {
     border: 2px solid black;
 }
+
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active
+{outline: 0px !important;
+    box-shadow: none !important;
+
+}
