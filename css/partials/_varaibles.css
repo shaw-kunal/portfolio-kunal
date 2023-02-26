@@ -17,4 +17,5 @@ html,body{
      --box-shadow:0px 10px 30px rgba(57,56,61,0.205);
      --roboto:cursive,'Roboto';
      --heading-gradient : linear-gradient(-90deg,#4458dc 0% ,#612cca 100%);
+     --text-background:linear-gradient(to right, #eaa65b, #f98d5a, #ff7267, #ff557e, #f93e9e, #d65ed0, #9b7cf2, #3a92ff, #00b3ff, #00cef5, #00e2d8, #89f2be);
 }

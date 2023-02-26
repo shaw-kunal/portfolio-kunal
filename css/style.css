@@ -77,6 +77,11 @@
 .site-main .site-banner .site-title h1
 {
     font-size: 5rem;
+    background: var( --text-background);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: cursive;
 }
 
 .site-main .site-banner .site-title h4
@@ -264,7 +269,7 @@
 }
 .site-main .service-area .service-title
 {
-    padding : 0 14rem;
+    padding : 0 4rem;
 }
 .site-main .service-area .service-title h1
 { border:2px solid black;
@@ -312,6 +317,76 @@
     
 }
 
+.site-main .project-area .grid .our-project .img a:hover img
+{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+
+}
+
+
+
+
+
+
+
 
 /*end project area */
 
+/* about me */
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+.site-main .about-area .client
+{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 1rem;
+   
+}
+
+.site-main .about-area .client .client-img
+{
+    padding :2rem;
+
+}
+.site-main .about-main .client .client .about-client
+{
+    padding-top:2rem;
+}
+
+.site-main .about-main .client .about-client h4
+{
+    font: normal 500 20px/20px ;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.site-main .about-main .owl-carousel .owl-item
+{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-main .owl-carousel .owl-dots .owl-dot.active span
+{
+    background-image:linear-gradient(to right, #eaa65b, #f98d5a, #ff7267, #ff557e, #f93e9e, #d65ed0, #9b7cf2, #3a92ff, #00b3ff, #00cef5, #00e2d8, #89f2be);
+    width :40px;
+    background-color: #00b3ff;
+    height: 120px;
+
+
+}
+
+
+/* about me */
+
+/* sbuscribe me */
+.site-main .subscribe-us-area .subscribe
+{
+    
+    background-image:linear-gradient(to right, #eaa65b, #f98d5a, #ff7267, #ff557e, #f93e9e, #d65ed0, #9b7cf2, #3a92ff, #00b3ff, #00cef5, #00e2d8, #89f2be);
+   padding: 10rem 0rem;
+   margin:3rem auto;
+
+}
+/* end sbuscribe me */
